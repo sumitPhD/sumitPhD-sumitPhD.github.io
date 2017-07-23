@@ -88,6 +88,12 @@
 </ul></nav><h1>galleries</h1>
 
 <div id="gallery_container"></div>
+<noscript>
+<ul class="thumbnails"><li>
+<a href="profile_pic.png" class="thumbnail image-reference" title="Profile pic">
+            <img src="profile_pic.thumbnail.png" alt="Profile pic"></a>
+</li></ul>
+</noscript>
 
         </div>
         <!--End of body content-->
@@ -104,7 +110,7 @@
     moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates --><script src="../assets/js/flowr.plugin.js"></script><script>
-jsonContent = [];
+jsonContent = [{"size": {"h": 180, "w": 128}, "title": "Profile pic", "url": "profile_pic.png", "url_thumb": "profile_pic.thumbnail.png"}];
 $("#gallery_container").flowr({
         data : jsonContent,
         height : 180*.6,
