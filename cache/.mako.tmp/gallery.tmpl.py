@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1500824977.5968056
+_modified_time = 1500840046.5319982
 _enable_loop = True
 _template_filename = 'c:/users/sumit/appdata/local/programs/python/python36-32/lib/site-packages/nikola/data/themes/bootstrap3/templates/gallery.tmpl'
 _template_uri = 'gallery.tmpl'
@@ -35,27 +35,27 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         _import_ns = {}
         _mako_get_namespace(context, 'ui')._populate(_import_ns, ['bar'])
-        crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
-        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
-        folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
-        ui = _mako_get_namespace(context, 'ui')
-        photo_array = _import_ns.get('photo_array', context.get('photo_array', UNDEFINED))
+        comments = _mako_get_namespace(context, 'comments')
         post = _import_ns.get('post', context.get('post', UNDEFINED))
-        thumbnail_size = _import_ns.get('thumbnail_size', context.get('thumbnail_size', UNDEFINED))
-        photo_array_json = _import_ns.get('photo_array_json', context.get('photo_array_json', UNDEFINED))
-        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
+        folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
+        title = _import_ns.get('title', context.get('title', UNDEFINED))
         def extra_js():
             return render_extra_js(context._locals(__M_locals))
+        photo_array = _import_ns.get('photo_array', context.get('photo_array', UNDEFINED))
+        enable_comments = _import_ns.get('enable_comments', context.get('enable_comments', UNDEFINED))
+        thumbnail_size = _import_ns.get('thumbnail_size', context.get('thumbnail_size', UNDEFINED))
+        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
         parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
+        crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
+        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
+        photo_array_json = _import_ns.get('photo_array_json', context.get('photo_array_json', UNDEFINED))
         def extra_head():
             return render_extra_head(context._locals(__M_locals))
+        ui = _mako_get_namespace(context, 'ui')
         def content():
             return render_content(context._locals(__M_locals))
-        enable_comments = _import_ns.get('enable_comments', context.get('enable_comments', UNDEFINED))
-        title = _import_ns.get('title', context.get('title', UNDEFINED))
         def sourcelink():
             return render_sourcelink(context._locals(__M_locals))
-        comments = _mako_get_namespace(context, 'comments')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -103,18 +103,18 @@ def render_content(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'ui')._populate(_import_ns, ['bar'])
-        crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         ui = _mako_get_namespace(context, 'ui')
-        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
-        photo_array = _import_ns.get('photo_array', context.get('photo_array', UNDEFINED))
-        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
+        comments = _mako_get_namespace(context, 'comments')
         def content():
             return render_content(context)
-        folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
+        photo_array = _import_ns.get('photo_array', context.get('photo_array', UNDEFINED))
         post = _import_ns.get('post', context.get('post', UNDEFINED))
+        permalink = _import_ns.get('permalink', context.get('permalink', UNDEFINED))
         enable_comments = _import_ns.get('enable_comments', context.get('enable_comments', UNDEFINED))
+        folders = _import_ns.get('folders', context.get('folders', UNDEFINED))
+        site_has_comments = _import_ns.get('site_has_comments', context.get('site_has_comments', UNDEFINED))
         title = _import_ns.get('title', context.get('title', UNDEFINED))
-        comments = _mako_get_namespace(context, 'comments')
+        crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n    ')
         __M_writer(str(ui.bar(crumbs)))
@@ -163,9 +163,9 @@ def render_extra_head(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'ui')._populate(_import_ns, ['bar'])
-        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
         def extra_head():
             return render_extra_head(context)
+        parent = _import_ns.get('parent', context.get('parent', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer(str(parent.extra_head()))
@@ -180,10 +180,10 @@ def render_extra_js(context,**pageargs):
     try:
         _import_ns = {}
         _mako_get_namespace(context, 'ui')._populate(_import_ns, ['bar'])
-        thumbnail_size = _import_ns.get('thumbnail_size', context.get('thumbnail_size', UNDEFINED))
+        photo_array_json = _import_ns.get('photo_array_json', context.get('photo_array_json', UNDEFINED))
         def extra_js():
             return render_extra_js(context)
-        photo_array_json = _import_ns.get('photo_array_json', context.get('photo_array_json', UNDEFINED))
+        thumbnail_size = _import_ns.get('thumbnail_size', context.get('thumbnail_size', UNDEFINED))
         __M_writer = context.writer()
         __M_writer('\n<script src="/assets/js/flowr.plugin.js"></script>\n<script>\njsonContent = ')
         __M_writer(str(photo_array_json))
