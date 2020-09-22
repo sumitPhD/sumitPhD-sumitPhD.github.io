@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sumit Agrawal</title><link>https://sumitphd.github.io/</link><description>This is a personal website of Sumit Agrawal.</description><atom:link href="https://sumitphd.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:agrawalsumit1989@gmail.com"&gt;Sumit Agrawal&lt;/a&gt; </copyright><lastBuildDate>Tue, 22 Sep 2020 08:10:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Tutorial : Mask Design in Clewin for lithography process</title><link>https://sumitphd.github.io/blog/clewin/Tutorial-mask-writing-in-clewin/</link><dc:creator>Sumit Agrawal</dc:creator><description>&lt;div&gt;    
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sumit Agrawal (Posts about clewin)</title><link>https://sumitphd.github.io/</link><description></description><atom:link href="https://sumitphd.github.io/categories/clewin.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:agrawalsumit1989@gmail.com"&gt;Sumit Agrawal&lt;/a&gt; </copyright><lastBuildDate>Tue, 22 Sep 2020 08:10:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Tutorial : Mask Design in Clewin for lithography process</title><link>https://sumitphd.github.io/blog/clewin/Tutorial-mask-writing-in-clewin/</link><dc:creator>Sumit Agrawal</dc:creator><description>&lt;div&gt;    
  &lt;p&gt;In the MEMS fabrication process, lithography is required for pattern generation, and for that one has to make a pattern on a glass plate. Which is also called mask writing.&lt;/p&gt;
 
 &lt;p&gt;Clewin is a software, developed by the University of Twente, for mask writing. I wanted to make a pattern by coding as it is easy to debug, takes less effort in making small changes, and scalable. So, while making MEMS devices, I did coding for pattern generation, that I am sharing here with you. In the Clewin, there is an option of making a pattern using scripts of C, Matlab, etc. I am using Matlab scripts. Although the command would not run in Matlab, but the structure that is used is similar to Matlab.&lt;/p&gt;
@@ -176,17 +176,4 @@ end
 
 &lt;script type="text/javascript" src="https://sumitphd.github.io/blog/clewin/Tutorial-mask-writing-in-clewin/js/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="https://sumitphd.github.io/blog/clewin/Tutorial-mask-writing-in-clewin/js/bootstrap.min.js"&gt;&lt;/script&gt;
-    </description><category>clewin</category><category>lithography</category><category>mask-writing</category><category>MEMS fabrication</category><guid>https://sumitphd.github.io/blog/clewin/Tutorial-mask-writing-in-clewin/</guid><pubDate>Tue, 22 Sep 2020 08:10:30 GMT</pubDate></item><item><title>Just Git It</title><link>https://sumitphd.github.io/blog/Just-Git-It/Just%20Git%20It/</link><dc:creator>Sumit Agrawal</dc:creator><description>&lt;div&gt;    
- &lt;p&gt;Do you get those nightmares that you do some revision in your code and it might not work but the code was working just fine in the previous version and now it's hard for you do go back. You are going to spend lots of hours in just figuring out what changes you had made. I used to have backup of code whenever I need to change it but still need to spend lot of time in comparing it. I also had trouble in saving those file in different location with different names and it put lots of mental burden (Just like the guy below from PhD Comics). But there is smart solution available - Git. Let's make most from it. You can find my presentation on git  &lt;a href="https://github.com/sumitPhD/git-for-starter/blob/master/Just%20git%20it.pdf"&gt;here&lt;/a&gt; &lt;/p&gt;
- &lt;img src="https://sumitphd.github.io/galleries/phd101212s.gif" alt="PhD Oops"&gt;
-
-
-
-
-
-
-&lt;/div&gt; &lt;!-- container--&gt;
-
-&lt;script type="text/javascript" src="https://sumitphd.github.io/blog/Just-Git-It/Just%20Git%20It/js/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="https://sumitphd.github.io/blog/Just-Git-It/Just%20Git%20It/js/bootstrap.min.js"&gt;&lt;/script&gt;
-    </description><category>git</category><guid>https://sumitphd.github.io/blog/Just-Git-It/Just%20Git%20It/</guid><pubDate>Sun, 23 Jul 2017 11:36:30 GMT</pubDate></item></channel></rss>
+    </description><category>clewin</category><category>lithography</category><category>mask-writing</category><category>MEMS fabrication</category><guid>https://sumitphd.github.io/blog/clewin/Tutorial-mask-writing-in-clewin/</guid><pubDate>Tue, 22 Sep 2020 08:10:30 GMT</pubDate></item></channel></rss>
