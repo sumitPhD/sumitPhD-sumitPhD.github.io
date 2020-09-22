@@ -7,15 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://sumitphd.github.io/</loc>
-  <lastmod>2017-10-06T04:23:00Z</lastmod>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://sumitphd.github.io/2017/</loc>
   <lastmod>2017-10-06T04:23:00Z</lastmod>
  </url>
  <url>
+  <loc>https://sumitphd.github.io/2020/</loc>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://sumitphd.github.io/archive.html</loc>
-  <lastmod>2019-06-26T22:34:00Z</lastmod>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://sumitphd.github.io/bio/</loc>
@@ -27,7 +31,7 @@
  </url>
  <url>
   <loc>https://sumitphd.github.io/blog/</loc>
-  <lastmod>2017-10-06T04:23:00Z</lastmod>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://sumitphd.github.io/blog/Just-Git-It/Just%20Git%20It/</loc>
@@ -38,20 +42,44 @@
   <lastmod>2018-03-07T16:22:00Z</lastmod>
  </url>
  <url>
+  <loc>https://sumitphd.github.io/blog/clewin/Tutorial-mask-writing-in-clewin/</loc>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sumitphd.github.io/blog/clewin/Tutorial-mask-writing-in-clewin/index.src.html</loc>
+  <lastmod>2020-09-22T08:09:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://sumitphd.github.io/categories/</loc>
-  <lastmod>2019-06-14T23:09:00Z</lastmod>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://sumitphd.github.io/categories/cat_blog/</loc>
   <lastmod>2019-06-14T23:09:00Z</lastmod>
  </url>
  <url>
+  <loc>https://sumitphd.github.io/categories/clewin/</loc>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://sumitphd.github.io/categories/git/</loc>
   <lastmod>2017-10-06T04:23:00Z</lastmod>
  </url>
  <url>
+  <loc>https://sumitphd.github.io/categories/lithography/</loc>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sumitphd.github.io/categories/mask-writing/</loc>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sumitphd.github.io/categories/mems-fabrication/</loc>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://sumitphd.github.io/galleries/</loc>
-  <lastmod>2017-10-06T04:43:00Z</lastmod>
+  <lastmod>2020-09-22T08:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://sumitphd.github.io/index.src.html</loc>
