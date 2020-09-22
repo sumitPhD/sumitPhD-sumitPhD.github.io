@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1600767798.7552874
+_modified_time = 1600767916.2048342
 _enable_loop = True
 _template_filename = 'c:/users/sumit/appdata/local/programs/python/python36-32/lib/site-packages/nikola/data/themes/base/templates/comments_helper_isso.tmpl'
 _template_uri = 'comments_helper_isso.tmpl'
@@ -29,9 +29,9 @@ def render_body(context,**pageargs):
 def render_comment_form(context,url,title,identifier):
     __M_caller = context.caller_stack._push_frame()
     try:
-        comment_system_id = context.get('comment_system_id', UNDEFINED)
         isso_config = context.get('isso_config', UNDEFINED)
         lang = context.get('lang', UNDEFINED)
+        comment_system_id = context.get('comment_system_id', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         if comment_system_id:

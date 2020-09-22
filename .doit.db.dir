@@ -107,7 +107,7 @@
 'copy_assets:output\\assets\\js\\colorbox-i18n\\jquery.colorbox-hr.js', (104960, 544)
 'copy_assets:output\\assets\\js\\colorbox-i18n\\jquery.colorbox-si.js', (105984, 544)
 'copy_assets:output\\assets\\js\\colorbox-i18n\\jquery.colorbox-ar.js', (107008, 544)
-'sitemap:output\\sitemap.xml', (437248, 6375)
+'sitemap:output\\sitemap.xml', (437248, 6374)
 'render_taxonomies', (109568, 56)
 'copy_assets:output\\assets\\css\\images\\ie6\\borderTopRight.png', (110080, 536)
 'sitemap', (111104, 56)
