@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sumit Agrawal (Posts about android-studio)</title><link>https://sumitphd.github.io/</link><description></description><atom:link href="https://sumitphd.github.io/categories/android-studio.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:agrawalsumit1989@gmail.com"&gt;Sumit Agrawal&lt;/a&gt; </copyright><lastBuildDate>Tue, 22 Sep 2020 08:30:29 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Android App: Hold Your Breath</title><link>https://sumitphd.github.io/blog/hold_your_breath/Android-App-Hold-Your-Breath/</link><dc:creator>Sumit Agrawal</dc:creator><description>&lt;div&gt; 
+&lt;p&gt;Hold Your Breath, I made this app in April 2020 in the direction of Self Assement Test for respiratory problems. It might be useful in detection of Covid-19 also. Although I am not claiming it. Also if you have history of heart or respiratory problem, please do not use this app.&lt;/p&gt;
+ 
+
+&lt;p&gt;As Coronavirus affects the respiratory system, monitoring your breathing capacity might help in detction of the disease. One need to monitor their breath holding capacity few times a day, and see if over the period of time the breathing capacity remains same or changes.
+&lt;/p&gt;
+
+&lt;p&gt;The codes and the app is made avaiable in the github repo. I would be happy if someone can use it for further improvments or integrate in their own app. One can also think in making some app in the direction of Self Assement Test.
+&lt;/p&gt;
+
+ &lt;img src="https://sumitphd.github.io/galleries/representative_pic_of_the_app.png" alt="representative_pic_of_the_app"&gt;
+
+
+&lt;p&gt;Objective The idea is to get some quatitive value of a person's breath holding capacity, and it varies from person to person. So one has to monitor his/her own breath holding capacity over the period of time. If there is some major fluctuations then it might indicate some respiratory illness.
+&lt;/p&gt;
+
+&lt;p&gt;Working of the App One has to first inhhale and the click the button "INHALE AND HOLD YOUR BREATH", and then the chronometer (clock) starts running. You have to keep hold your breath. and at the point, you can not hold your breath any longer, click "EXHALE".
+&lt;/p&gt;
+
+&lt;p&gt;There are 3 tests and by clicking "SAVE YOUR TEST" , it takes average of all 3 tests and save it in database. You can see it by clicking "VIEW ALL TEST RESULTS". The entries also take note of date and time. One can view bar chart to monitor the all the average of previous set of tests.
+&lt;/p&gt;
+
+&lt;p&gt;One can also set reminder by clicking "SET ALARM TO REMIND YOU".
+&lt;/p&gt;
+
+&lt;p&gt;I purposefully not added functionality of discarding/updating whole database or set of test, as one can cheat on results. But if doing a test one is not clicked the desired button. or exhale before clicking the button etc. so for, current test I have added the functionality of discarding the current test on "DISCARD THE LAST TEST".
+&lt;/p&gt;
+
+&lt;p&gt;working APK &lt;a href="https://github.com/sumitPhD/App_HoldYourBreath/blob/master/HoldYourBreath_commit13.apk"&gt;HoldYourBreath_commit13.apk&lt;/a&gt;
+&lt;/p&gt;
+
+
+
+
+
+&lt;/div&gt; &lt;!-- container--&gt;
+
+&lt;script type="text/javascript" src="https://sumitphd.github.io/blog/hold_your_breath/Android-App-Hold-Your-Breath/js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="https://sumitphd.github.io/blog/hold_your_breath/Android-App-Hold-Your-Breath/js/bootstrap.min.js"&gt;&lt;/script&gt;
+    </description><category>android</category><category>android-studio</category><category>Self Assement Test for respiratory problems</category><guid>https://sumitphd.github.io/blog/hold_your_breath/Android-App-Hold-Your-Breath/</guid><pubDate>Tue, 22 Sep 2020 08:20:00 GMT</pubDate></item></channel></rss>
