@@ -6,8 +6,16 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://sumitphd.github.io/categories/android-studio.xml</loc>
+  <lastmod>2020-09-22T08:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://sumitphd.github.io/categories/android.xml</loc>
+  <lastmod>2020-09-22T08:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://sumitphd.github.io/categories/cat_blog.xml</loc>
-  <lastmod>2020-09-22T08:10:00Z</lastmod>
+  <lastmod>2020-09-22T08:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sumitphd.github.io/categories/clewin.xml</loc>
@@ -30,15 +38,19 @@
   <lastmod>2020-09-22T08:10:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://sumitphd.github.io/categories/self-assement-test-for-respiratory-problems.xml</loc>
+  <lastmod>2020-09-22T08:30:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://sumitphd.github.io/galleries/rss.xml</loc>
-  <lastmod>2020-09-22T08:10:00Z</lastmod>
+  <lastmod>2020-09-22T08:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sumitphd.github.io/rss.xml</loc>
-  <lastmod>2020-09-22T08:10:00Z</lastmod>
+  <lastmod>2020-09-22T08:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sumitphd.github.io/sitemap.xml</loc>
-  <lastmod>2020-09-22T08:10:00Z</lastmod>
+  <lastmod>2020-09-22T08:30:00Z</lastmod>
  </sitemap>
 </sitemapindex>
