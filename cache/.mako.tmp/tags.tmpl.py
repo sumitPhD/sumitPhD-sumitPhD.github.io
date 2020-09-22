@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1600763448.8181236
+_modified_time = 1600767632.8404753
 _enable_loop = True
 _template_filename = 'c:/users/sumit/appdata/local/programs/python/python36-32/lib/site-packages/nikola/data/themes/bootstrap4/templates/tags.tmpl'
 _template_uri = 'tags.tmpl'
@@ -31,11 +31,11 @@ def render_body(context,**pageargs):
         cat_hierarchy = context.get('cat_hierarchy', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        title = context.get('title', UNDEFINED)
         cat_items = context.get('cat_items', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         range = context.get('range', UNDEFINED)
         hidden_tags = context.get('hidden_tags', UNDEFINED)
+        title = context.get('title', UNDEFINED)
         len = context.get('len', UNDEFINED)
         items = context.get('items', UNDEFINED)
         __M_writer = context.writer()
@@ -56,11 +56,11 @@ def render_content(context,**pageargs):
         cat_hierarchy = context.get('cat_hierarchy', UNDEFINED)
         def content():
             return render_content(context)
-        title = context.get('title', UNDEFINED)
         cat_items = context.get('cat_items', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
         range = context.get('range', UNDEFINED)
         hidden_tags = context.get('hidden_tags', UNDEFINED)
+        title = context.get('title', UNDEFINED)
         len = context.get('len', UNDEFINED)
         items = context.get('items', UNDEFINED)
         __M_writer = context.writer()
